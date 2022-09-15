@@ -1,0 +1,642 @@
+
+[
+    {
+        "id": 1,
+        "nombre": "Lobo",
+        "tipoMob":"Mob pasivo",
+        "descripcion": "Los lobos son criaturas neutrales, se cree que no cambiaron mucho desde sus inicios siendo casi un fósil viviente introducidas en la versión 1.1.1",
+        "vida":"4 corazones",
+        "atk":"2 corazones",
+        "img":"./src/img/lobo.png"
+    },
+    {
+        "id": "M2",
+        "nombre": "Abeja",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Las abejas se generan de forma natural en pequeños grupos alrededor de los nidos de abejas, las cuales cuelgan de un árbol de roble o de abedul que se encuentre en los biomas y subiomas de planicie, también aparecen en los biomas de bosque floral.",
+        "vida":"3 corazones",
+        "atk":"1.5 corazones",
+        "img":"./src/img/abeja.png"
+    },
+    {
+        "id": "M3",
+        "nombre": "Ajolote",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"El ajolote es una criatura pasiva poco común encontrada en la Superficie, únicamente en el bioma de cuevas frondosas. Puede ser de cinco colores diferentes, se puede transportar en cubos con agua y ataca a criaturas marinas como peces, calamares, ahogados y guardianes.",
+        "vida":"5 corazones",
+        "atk":"2 corazones",
+        "img":"./src/img/ajolote.jpg"
+    },
+    {
+        "id": "M4",
+        "nombre": "Aldeano",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"El  aldeano es una criatura pasiva que vive en las aldeas, trabaja en su respectiva profesión, se reproduce e interactúa. Su vestimenta varía dependiendo de la ocupación que tenga y el bioma en el que se encuentre. Un jugador puede comerciar con los aldeanos, utilizando esmeraldas como moneda.",
+        "vida":"10 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/d/d8/Plains_Villager_Base.png/revision/latest?cb=20190517130809"
+    },
+    {
+        "id": "M5",
+        "nombre": "Allay",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Un allay es una pequeña criatura pasiva. Recopila y entrega objetos para cualquier jugador que le dé algo, o cualquier bloque musical que escuche repetidamente.",
+        "vida":"5 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d8/Allay_JE1_BE1.gif/revision/latest?cb=20220310151804"
+    },
+    {
+        "id": "M6",
+        "nombre": "Bacalao",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"El bacalao es una criatura pasiva bastante común encontrada en la Superficie, en varios biomas de océano. Suelen encontrarse en grupos cortos a medianos y se puede transportar en cubos con agua.",
+        "vida":"2 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ef/Raw_Cod_JE4_BE2.png/revision/latest?cb=20190403183136"
+    },
+    {
+        "id": "M7",
+        "nombre": "Burro",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"El burro es una criatura pasiva poco común encontrada en la Superficie, que se halla en llanuras y sabanas. Son un medio de transporte de objetos móvil al equiparles un cofre, que permite almacenar objetos en su interior y al equiparse una montura pueden ser montados y controlados.",
+        "vida":"7- 15 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/9/95/Donkey.png/revision/latest?cb=20201114165432"
+    },
+    {
+        "id": "M8",
+        "nombre": "Caballo",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Los caballos son criaturas domesticables que pueden servir para la exploración, las variantes pueden aparecer en uno de varios colores de piel diferentes que exhiben manchas o rasgos diferentes.",
+        "vida":"7-15 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1e/Brown_Horse.png/revision/latest?cb=20190716121731"
+    },
+    {
+        "id": "M9",
+        "nombre": "Caballo esqueleto",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Los caballos esqueletos son variantes esqueléticas de los caballos normales. Los caballos esqueletos solo se generan a partir de trampas esqueléticas.",
+        "vida":"6-12 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/de/Skeleton_Horse.png/revision/latest?cb=20190826120115"
+    },
+    {
+        "id": "M10",
+        "nombre": "Calamar",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Los calamares son criaturas acuáticas pasivas comunes que se reproducen en ríos y océanos.",
+        "vida":"3 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/ce/Squid.gif/revision/latest?cb=20210213065826"
+    },
+    {
+        "id": "M11",
+        "nombre": "Calamar luminoso",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"El calamar luminoso o calamar brillante es una criatura pasiva acuática que se encuentra en áreas oscuras bajo el agua, generalmente en las profundidades del océano, grietas y acuíferos; Los calamares brillantes son una variante del calamar, con una textura luminiscente aqua. Fueron portados a Minecraft vanilla desde Minecraft Earth.",
+        "vida":"3 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c3/Glow_Squid_JE1.gif/revision/latest?cb=20210211221723"
+    },
+    {
+        "id": "M12",
+        "nombre": "Cerdo",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"El cerdo es una criatura pasiva común encontrada en la Superficie, usualmente en biomas pastosos, que se genera sola o en manadas. Es una fuente eficiente de chuletas de cerdo y puede ser montado con una montura.",
+        "vida":"3 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1a/Pig_JE3_BE2.png/revision/latest?cb=20191229170841"
+    },
+    {
+        "id": "M13",
+        "nombre": "Vaca",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"La vaca (Cow en la versión original del juego) es una criatura pasiva común encontrada en la Superficie, usualmente en biomas pastosos, que se genera sola o en manadas. Es una fuente eficiente de filetes crudos, leche y cuero, los que son materiales relevantes de fabricación.",
+        "vida":"5 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/8/84/Cow.png/revision/latest?cb=20201112133105"
+    },
+    {
+        "id": "M14",
+        "nombre": "Oveja",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Las ovejas son criaturas pasivas comunes que suministran lana y cordero crudo y se encuentran en muchos biomas.",
+        "vida":"4 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e2/White_Sheep_JE3_BE6.png/revision/latest?cb=20190809163123"
+    },
+    {
+        "id": "M15",
+        "nombre": "Champivaca",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Las mooshrooms son variantes de vaca cubiertas de champiñones, exclusivas del raro bioma campo de champiñones.",
+        "vida":"5 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1c/Red_Mooshroom_JE4.png/revision/latest?cb=20200510033824"
+    },
+    {
+        "id": "M16",
+        "nombre": "Conejo",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Los conejos son criaturas pacíficas (exceptuando el conejo asesino que solo se puede generar con comandos).",
+        "vida":"2 corazones",
+        "atk":"0 corazones, conejo asesino (6 corazones)",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/8d/Brown_Rabbit_JE2_BE2.png/revision/latest?cb=20190809185517"
+    },
+    {
+        "id": "M17",
+        "nombre": "Ocelote",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Los ocelotes son criaturas pasivas que habitan en la jungla y sus variantes.",
+        "vida":"3 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/0/0d/Ocelot.png/revision/latest?cb=20201114224729"
+    },
+    {
+        "id": "M18",
+        "nombre": "Gato",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Los Gatos son mobs pacíficos domesticables, el gato de hoy más moderno en Minecraft salio en la 1.14. Este habita en las aldeas, o en las cabañas al interior de los pantanos, siguen a su dueño ocasionalmente, se dedican a dormir o descansar sobre camas y baúles, son bastante útiles para ahuyentar a monstruos como los fantasmas o los creepers.",
+        "vida":"4 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/8/8c/Gato_Tabby.png/revision/latest?cb=20180711175643"
+    },
+    {
+        "id": "M19",
+        "nombre": "Gallina",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Los pollos (también llamadas gallinas) son criaturas pasivas que suministran plumas, pollo crudo, huevos, e incluso pollo asado (si mueren quemados). Miden 0.875 bloques de alto, 0.5 bloques de ancho y 0.8125 bloques de largo.",
+        "vida":"1 corazon",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2c/Chicken_JE2_BE2.png/revision/latest?cb=20190721103652"
+    },
+    {
+        "id": "M20",
+        "nombre": "Golem de nieve",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"El gólem de nieve (Snow Golem en inglés) es una de las criaturas útiles incluidas en Minecraft.",
+        "vida":"4 corazones",
+        "atk":"0 corazones, al blaze (3 corazones)",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/c/c2/Snow_Golem.png/revision/latest?cb=20201115152203"
+    },
+    {
+        "id": "M21",
+        "nombre": "Golem de hierro",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"El gólem de hierro (Iron Golem en inglés) es una criatura neutral que defiende a jugadores y aldeanos.",
+        "vida":"50 corazones",
+        "atk":"5 - 16 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/02/Iron_Golem_JE2_BE2.png/revision/latest?cb=20190605101959"
+    },
+    {
+        "id": "M22",
+        "nombre": "Loro",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"El loro es una criatura pacífica rara que se encuentra en la jungla y puede ser domesticada. Los loros pueden imitar los sonidos de las criaturas hostiles cercanas y pueden posarse en los hombros del jugador.",
+        "vida":"6 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/de/Red_Parrot.png/revision/latest?cb=20170720112713"
+    },
+    {
+        "id": "M23",
+        "nombre": "Lavagante",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"El lavagante es una criatura pasiva que genera en el Nether. Puede caminar sobre la lava y ser montado por el jugador. Se necesita una caña con hongo distorsionado para poder dirigirlo, algo parecido a los cerdos.",
+        "vida":"10 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a6/Strider_JE2_BE2.gif/revision/latest?cb=20200618080058"
+    },
+    {
+        "id": "M24",
+        "nombre": "Mula",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Las mulas (Mule en la versión original del juego) son criaturas domesticables sobre las que podrás montarte cuando lo hagas.",
+        "vida":"7 - 15 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/e/e7/Mule.png/revision/latest?cb=20201114161918"
+    },
+    {
+        "id": "M25",
+        "nombre": "Murcielago",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Los murciélagos (Bat en la versión original del juego) son criaturas pasivas de Minecraft, que habitan en cavernas y lugares oscuros en la Superficie.",
+        "vida":"6 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c6/Bat_JE2_BE2.png/revision/latest?cb=20190814232656"
+    },
+    {
+        "id": "M26",
+        "nombre": "Oso polar",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Los osos polares (Polar Bear en inglés) son criaturas neutrales que viven en biomas fríos.",
+        "vida":"15 corazones",
+        "atk":"4.5 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/7/78/Polar_Bear.png/revision/latest?cb=20171009151949"
+    },
+    {
+        "id": "M27",
+        "nombre": "Pez tropical",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Los peces tropicales son criaturas pasivas comunes que se encuentran en los océanos cálidos y tibios, así como también en cuevas frondosas. Hay 3584 variantes posibles.",
+        "vida":"3 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6a/Wild_Tropical_Fish_Variants.png/revision/latest?cb=20220428090554"
+    },
+    {
+        "id": "M28",
+        "nombre": "Rana",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Una rana es una criatura pasiva que aparece en pantanos.",
+        "vida":"5 corazones",
+        "atk":"muerte instantanea (mini slimes/cubos de magma)",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/ce/Temperate_Frog_JE1_BE1.gif/revision/latest?cb=20211218052629"
+    },
+    {
+        "id": "M29",
+        "nombre": "Salmon",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Los salmones son criaturas pasivas comunes que se encuentran en los océanos y en los ríos.",
+        "vida":"1.5 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d8/Salmon.gif/revision/latest?cb=20190923182046"
+    },
+    {
+        "id": "M30",
+        "nombre": "Tortuga",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Las tortugas son unas criaturas pasivas que se mueven tanto en el agua como en la tierra.",
+        "vida":"15 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e9/Turtle.png/revision/latest?cb=20180703145237"
+    },
+    {
+        "id": "M31",
+        "nombre": "Zorro",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Los zorros (fox en inglés) son criaturas pasivas y nocturnas que suelen encontrarse comúnmente en los biomas de taiga, taiga ancestral y taiga nevada. Durante la noche, se suelen desplazar hacia alguna aldea cercana.",
+        "vida":"10 corazones",
+        "atk":"1 corazon",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/73/Fox.png/revision/latest?cb=20190213174205"
+    },
+    {
+        "id": "M32",
+        "nombre": "Vendedor ambulante",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"El comerciante nómada, también conocido como comerciante ambulante o comerciante errante (en inglés wandering trader) es una entidad y criatura similar a los aldeanos.",
+        "vida":"10 corazones",
+        "atk":"0 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/5/52/Wandering_Trader.png/revision/latest?cb=20201111013710"
+    },
+    {
+        "id": "M33",
+        "nombre": "Llama",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Las Llamas son criaturas neutrales, las cuales pueden ser domadas y su uso es el transporte de objetos en grandes cantidades.",
+        "vida":"7.5 - 15 corazones",
+        "atk":"0.5 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/f/fb/Llama_cremosa.png/revision/latest?cb=20201111014559"
+    },
+    {
+        "id": "M34",
+        "nombre": "Delfin",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Son criaturas sociales por naturaleza, los delfines pueden encontrarse nadando en grandes grupos por el mar. Si observa a un jugador, intentará interactuar con él, enseñando su gran inteligencia y curiosidad. Por encima de todo, ¡Son extremadamente juguetones!",
+        "vida":"5 corazones",
+        "atk":"2 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/70/Dolphin.gif/revision/latest?cb=20191115084324"
+    },
+    {
+        "id": "M35",
+        "nombre": "Pez globo",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"El pez globo (Pufferfish en inglés) es una de las criaturas que se pueden encontrar en los océanos de Minecraft. Estos animales se defenderán infligiendo daño y afectando con veneno a los jugadores y a ciertas criaturas que se acerquen, pero no son criaturas hostiles.",
+        "vida":"1.5 corazones",
+        "atk":"1.5 corazones + 2.5 de veneno cada 5 segundos",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/45/Pufferfish_small.gif/revision/latest?cb=20190924105630"
+    },
+    {
+        "id": "M36",
+        "nombre": "Cabra",
+        "tipoMob":"Mob pasivo",
+        "descripcion":"Las cabras (Goat en inglés) son criaturas neutrales que se encuentran en los biomas de montañas. Las cabras realizan saltos de altura y son una fuente de leche y cuernos de cabra.",
+        "vida":"5 corazones",
+        "atk":"1.5 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f8/Goat_JE1_BE1.png/revision/latest?cb=20220408211907"
+    },
+    {
+        "id": "M37",
+        "nombre": "Zombi",
+        "tipoMob":"Mob hostil",
+        "descripcion":"El zombi (Zombie en inglés) es una criatura hostil común y no muerta.",
+        "vida":"10 corazones",
+        "atk":"2.2 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/87/Zombie_JE3_BE2.png/revision/latest?cb=20191227070025"
+    },
+    {
+        "id": "M38",
+        "nombre": "Creeper",
+        "tipoMob":"Mob hostil",
+        "descripcion":"El creeper es una criatura hostil común que se acerca sigilosamente al jugador y explota, destruyendo el entorno y dañando tanto al jugador como a otras criaturas dentro del radio de la explosión. Debido a su aspecto y peculiares características, el creeper es considerado un icono de Minecraft.",
+        "vida":"10 corazones",
+        "atk":"32 corazones, creeper cargado (63 corazones)",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/b/b2/Creeper1.png/revision/latest?cb=20210923172737"
+    },
+    {
+        "id": "M39",
+        "nombre": "Esqueleto",
+        "tipoMob":"Mob hostil",
+        "descripcion":"El esqueleto (Skeleton en inglés) es una criatura hostil común y no muerta que va equipada con un arco y flechas.",
+        "vida":"10 corazones",
+        "atk":"2.5 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/5/5d/Esqueleto.png/revision/latest?cb=20200901155816"
+    },
+    {
+        "id": "M40",
+        "nombre": "Aldeano zombi",
+        "tipoMob":"Mob hostil",
+        "descripcion":"Un aldeano zombi es spawneado de forma natural en grupos pequeños de otros aldeanos zombis, pero tambien pueden ser creados, a partir de que un zombi mate a un aldenao normal",
+        "vida":"10 corazones",
+        "atk":"2.2 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/fd/Plains_Zombie_Villager_Base.png/revision/latest?cb=20211013222051"
+    },
+    {
+        "id": "M41",
+        "nombre": "Esqueleto glacial",
+        "tipoMob":"Mob hostil",
+        "descripcion":"Los esqueletos glaciares son variantes de los esqueletos que solo aparecen en biomas congelados, helados o nevados.",
+        "vida":"10 corazones",
+        "atk":"2.5 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/38/Stray_JE2_BE4.png/revision/latest?cb=20191001180649"
+    },
+    {
+        "id": "M42",
+        "nombre": "Bruja",
+        "tipoMob":"Mob hostil",
+        "descripcion":"La bruja es una criatura agresiva. Aparecen en cualquier lugar con un nivel de iluminación de 0. Llevan un sombrero negro con un cristal en el centro, una verruga en la nariz, un traje violeta y tienen la piel blanca. Extrañamente, Jeb utilizó como base la forma del aldeano para hacer a la bruja. Lanzan pociones venenosas cuando ven al jugador o algún animal pasivo y son completamente agresivas.",
+        "vida":"13 corazones",
+        "atk":"3 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraftpe/images/6/6f/Bruja.png/revision/latest?cb=20201124145955&path-prefix=es"
+    },
+    {
+        "id": "M43",
+        "nombre": "Slime",
+        "tipoMob":"Mob hostil",
+        "descripcion":"El slime es una criatura hostil que aparece bajo tierra y en el bioma de pantano.",
+        "vida":"3 corazones (grande), 2 corazones (mediano), 0.5 corazones (chico)",
+        "atk":"1 corazon (grande/mediano), 0 corazones (chico)",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/3/38/Slime.png/revision/latest?cb=20201115180403"
+    },
+    {
+        "id": "M44",
+        "nombre": "Cubo de magma",
+        "tipoMob":"Mob hostil",
+        "descripcion":"El Cubo de magma es una criatura hostil que habita en El Nether. Al morir, se divide en cubos de magma más pequeños. La forma de moverse es similar a la de los slimes normales, pero al saltar su cuerpo se divide en varias secciones y genera partículas de fuego. Su forma de ataque es saltando y golpeando con el cuerpo al jugador.",
+        "vida":"8 corazones (grande), 4 corazones (mediano), 0.5 corazones (chico)",
+        "atk":"4.5 corazones(grande), 3 corazones(mediano), 2.2 corazones (chico)",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ed/Magma_Cube.png/revision/latest?cb=20190805151823"
+    },
+    {
+        "id": "M45",
+        "nombre": "Devastador",
+        "tipoMob":"Mob hostil",
+        "descripcion":"Los Devastadores (Ravagers en inglés) son enormes criaturas que aparecen junto a los saqueadores durante las patrullas y los asaltos a las aldeas, son seres totalmente hostiles contra los jugadores, aldeanos y gólems de hierro, cuentan con la capacidad de romper cierta cantidad de bloques como lo son hojas y cultivos.",
+        "vida":"50 corazones",
+        "atk":"6 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/c/ca/Ravager.png/revision/latest?cb=20191115180507"
+    },
+    {
+        "id": "M46",
+        "nombre": "Fantasma",
+        "tipoMob":"Mob hostil",
+        "descripcion":"Los Fantasmas (Anteriormente conocido o llamado como Mob B y El monstruo de los cielos nocturnos) son una entidad hostil voladora común que atacará al jugador que no haya dormido en un periodo de 3 días o superior en el juego, puede dar de 0 a 1 de membrana, la cual sirve para hacer pociones de caída lenta o reparar las elytras",
+        "vida":"10 corazones",
+        "atk":"4.5 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/f/f9/Fantasmamov.gif/revision/latest?cb=20180905140347"
+    },
+    {
+        "id": "M47",
+        "nombre": "Evocador",
+        "tipoMob":"Mob hostil",
+        "descripcion":"Los evocadores son una criatura hostil. El cual pertenece a uno de los cuatro tipos de maldeanos, que son una rama de los aldeanos, los otros son el ilusionista, el vindicador y un poco mas alejados los saqueadores y devastadores",
+        "vida":"12 corazones",
+        "atk":"3 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/1/18/Invocadorcuerpo.png/revision/latest?cb=20200725222424"
+    },
+    {
+        "id": "M48",
+        "nombre": "Guardian",
+        "tipoMob":"Mob hostil",
+        "descripcion":"El Guardián es una criatura hostil acuática. Sólo se genera bajo el agua en monumentos oceánicos. Su ojo siempre mirará hacia los ojos del jugador más cercano. También cuenta con una variante gris, más grande, que hace de mini-jefe llamado guardián anciano.",
+        "vida":"10 corazones",
+        "atk":"4.5 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/94/Guardian.gif/revision/latest?cb=20190925152101"
+    },
+    {
+        "id": "M49",
+        "nombre": "Guardian anciano",
+        "tipoMob":"Mob hostil",
+        "descripcion":"El Guardián anciano es una criatura hostil que sólo se genera bajo el agua en los monumentos oceánicos. Es una variante más fuerte del Guardián. Debido a su vida, a estar bajo el agua, a las espinas y a la protección que le brindan los guardianes normales; se considera, dentro del monumento, una criatura jefe.",
+        "vida":"40 corazones",
+        "atk":"6 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/75/Elder_Guardian.gif/revision/latest?cb=20190925152022"
+    },
+    {
+        "id": "M50",
+        "nombre": "Saqueador",
+        "tipoMob":"Mob hostil",
+        "descripcion":"El saqueador es una criatura hostil parecida a los aldeanos, aunque se diferencia por su distinto tono grisáceo de piel, ropa oscura y un comportamiento agresivo y hostil. Suelen aparecer en varios lugares en grupos de 3 conformados por un Capitán saqueador, este tiene un estandarte de maldeano o estandarte repugnante (en Java Edition) en la cabeza y los demás saqueadores (solo ballestas), y/o un Vindicador que lleva un hacha.",
+        "vida":"12 corazones",
+        "atk":"9 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1b/Pillager_JE2.png/revision/latest?cb=20220612181538"
+    },
+    {
+        "id": "M51",
+        "nombre": "Vinidicador",
+        "tipoMob":"Mob hostil",
+        "descripcion":"Los vindicadores son uno de los 4 tipos de maldeanos, que son descendientes de los aldeanos, disponibles en Minecraft (siendo los otros el ilusionista, el evocador y el saqueador).",
+        "vida":"12 corazones",
+        "atk":"9.5 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/1/17/Vindicador.png/revision/latest?cb=20200725222157"
+    },
+    {
+        "id": "M52",
+        "nombre": "Vex",
+        "tipoMob":"Mob hostil",
+        "descripcion":"El vex es una criatura hostil voladora que es invocada por el evocador, otra criatura hostil, durante el combate en pequeños grupos.",
+        "vida":"7 corazones",
+        "atk":"6.5 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4f/Vex.gif/revision/latest?cb=20200419120452"
+    },
+    {
+        "id": "M53",
+        "nombre": "Lepisma",
+        "tipoMob":"Mob hostil",
+        "descripcion":"El lepisma (Silverfish en inglés) o pez de plata es una criatura pequeña, es como un insecto que tiene la piel plateada y ojos negros.",
+        "vida":"4 corazones",
+        "atk":"0.5 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Silverfish_JE1_BE1.gif/revision/latest?cb=20200125235834"
+    },
+    {
+        "id": "M54",
+        "nombre": "Esqueleto del Wihter",
+        "tipoMob":"Mob hostil",
+        "descripcion":"Los esqueletos wither son unas criaturas hostiles que miden 3 bloques de altura y se generan en las fortalezas del Nether. Cuando te ataca te da el efecto de wither, por lo que se recomienda llevar leche o miel.",
+        "vida":"10 corazones",
+        "atk":"10 corazones (con efecto de Wither)",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/1/1d/Esqueleto_Wither.png/revision/latest?cb=20201110173742"
+    },
+    {
+        "id": "M55",
+        "nombre": "Ghast",
+        "tipoMob":"Mob hostil",
+        "descripcion":"Un ghast es un gran fantasma blanco hostil que flota en el Nether y dispara bolas de fuego explosivas al jugador.",
+        "vida":"5 corazones",
+        "atk":"3 corazones (explosion 11 corazones)",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d5/Ghast_JE2_BE2.gif/revision/latest?cb=20201108222940"
+    },
+    {
+        "id": "M56",
+        "nombre": "Hoglin",
+        "tipoMob":"Mob hostil",
+        "descripcion":"El Hoglin o Puerquín es una criatura hostil que habita en el Nether (Inframundo) en el bioma del bosque carmesí. Añadida por primera vez en la snapshot 20w06a",
+        "vida":"5 corazones",
+        "atk":"3 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/9/98/Hoglin_zombificandose.gif/revision/latest?cb=20200907222126"
+    },
+    {
+        "id": "M57",
+        "nombre": "Piglin bruto",
+        "tipoMob":"Mob hostil",
+        "descripcion":"El Piglin bruto, Piglin feroz o Cerdín bruto es una criatura variante de los Piglins, completamente hostil hacía el jugador añadido en la versión 1.16.2 que vive en el Nether.",
+        "vida":"25 corazones",
+        "atk":"7.5 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/4/4e/Piglin_bruto_zombificandoze.gif/revision/latest?cb=20200907220358"
+    },
+    {
+        "id": "M58",
+        "nombre": "Jinete esqueletico",
+        "tipoMob":"Mob hostil",
+        "descripcion":"Los caballos esqueletos son variantes esqueléticas de los caballos normales.",
+        "vida":"7.5 corazones",
+        "atk":"2.5 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/29/Skeleton_Trap.png/revision/latest?cb=20200107234433"
+    },
+    {
+        "id": "M59",
+        "nombre": "Zoglin",
+        "tipoMob":"Mob hostil",
+        "descripcion":"Los zoglins o zuerquines son criaturas hostiles del grupo de no-muertos, los cuales son la versión zombificada de los hoglins. Son incombustibles e inmunes al daño de lava y fuego como la mayoría de criaturas del Nether excepto el piglin, el hoglin y el piglin bruto.",
+        "vida":"20 corazones",
+        "atk":"6 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/9/98/Hoglin_zombificandose.gif/revision/latest?cb=20200907222126"
+    },
+    {
+        "id": "M60",
+        "nombre": "Zombi desertico",
+        "tipoMob":"Mob hostil",
+        "descripcion":"El zombi momificado o zombi desértico (Husk, en inglés) es una variante de los zombis que se genera en los desiertos y no se quema a la luz del sol.",
+        "vida":"10 corazones",
+        "atk":"2.2 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e4/Husk_JE2_BE2.png/revision/latest?cb=20190510101810"
+    },
+    {
+        "id": "M61",
+        "nombre": "Enderman",
+        "tipoMob":"Mob hostil",
+        "descripcion":"El Enderman es un monstruo poco común de estatura alta, delgada y de color negro con ojos rosados. Es originario de de la dimensión del End, puede teletransportarse y agarrar una serie de bloques.",
+        "vida":"20 corazones",
+        "atk":"5 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/4/46/Enderman-con-bloque.png/revision/latest?cb=20121015100421"
+    },
+    {
+        "id": "M62",
+        "nombre": "Endermite",
+        "tipoMob":"Mob hostil",
+        "descripcion":"El Endermite es una criatura que se genera cuando el personaje lanza una Perla de ender.",
+        "vida":"4 corazones",
+        "atk":"1 corazon",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6e/Endermite.gif/revision/latest?cb=20200126021254"
+    },
+    {
+        "id": "M63",
+        "nombre": "Sulker",
+        "tipoMob":"Mob hostil",
+        "descripcion":"El Shulker es una criatura hostil que se encuentra en las ciudades del End.",
+        "vida":"10 corazones",
+        "atk":"1 corazon",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/9/9d/Caja_de_shulker.png/revision/latest?cb=20180529123937"
+    },
+    {
+        "id": "M64",
+        "nombre": "Jinete avicola",
+        "tipoMob":"Mob hostil",
+        "descripcion":"El jinete avícola (Chicken Jockey en inglés) es una variación poco común del zombi bebé, el zombi desértico bebé, un aldeano zombi bebé o el piglin zombificado bebé sobre una gallina. Se pueden asesinar fácilmente con un arma, pero no puede morir por caída, ya que caerá lentamente porque la gallina batirá sus alas.",
+        "vida":"10 corazones",
+        "atk":"2 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/d/d3/Chicken_Jockey.png/revision/latest?cb=20201114222942"
+    },
+    {
+        "id": "M65",
+        "nombre": "Jinete aracnido",
+        "tipoMob":"Mob hostil",
+        "descripcion":"El jinete arácnido (Spider Jockey en inglés) es una combinación de dos criaturas diferentes: Araña y Esqueleto. El jinete arácnido fue introducido en la Secret Friday Update 8. Cuando una araña aparece, tiene una probabilidad de 1% de que aparezca un esqueleto montado en su espalda. Son consideradas dos criaturas en vez de uno.",
+        "vida":"1.5 corazones",
+        "atk":"4 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraftpe/images/a/ab/Jinete_ar%C3%A1cnido_2.png/revision/latest/scale-to-width-down/1000?cb=20160209013111&path-prefix=es"
+    },
+    {
+        "id": "M66",
+        "nombre": "Jinete devastador",
+        "tipoMob":"Mob hostil",
+        "descripcion":"Los Devastadores (Ravagers en inglés) son enormes criaturas que aparecen junto a los saqueadores durante las patrullas y los asaltos a las aldeas, son seres totalmente hostiles contra los jugadores, aldeanos y gólems de hierro, cuentan con la capacidad de romper cierta cantidad de bloques como lo son hojas y cultivos.",
+        "vida":"50 corazones + vida de evocador/saqueador",
+        "atk":"6 corazones + atk de evocador/saqueador",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/c/ca/Ravager.png/revision/latest?cb=20191115180507"
+    },
+    {
+        "id": "M67",
+        "nombre": "Ahogado",
+        "tipoMob":"Mob hostil",
+        "descripcion":"Los ahogados son un no muerto común que aparece en los océanos, ríos, pantanos o cuando un zombi se ahoga. Se tendrá que quedar 15 segundos bajo agua un zombie normal. Puede venir equipado con un tridente, una caña de pescar o un caparazón de nautilo.",
+        "vida":"10 corazones",
+        "atk":"6 - 9 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraftpe/images/c/cc/Ahogado.png/revision/latest?cb=20181217234047&path-prefix=es"
+    },
+    {
+        "id": "M68",
+        "nombre": "Warden",
+        "tipoMob":"Mob hostil",
+        "descripcion":"El warden es una criatura hostil que es invocada por chilladores de sculk. Son criaturas completamente ciegas, y por ende utilizan las vibraciones y su sentido del olfato para identificar y ubicar jugadores y otras criaturas. Son extremadamente poderosos, y tienen la mayor cantidad de daño y salud de cualquier criatura del juego.",
+        "vida":"250 corazones",
+        "atk":"22.5 corazones fisico, atk de rango 7.5 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1a/Warden.gif/revision/latest?cb=20220218034755"
+    },
+    {
+        "id": "M69",
+        "nombre": "Ender Dragon",
+        "tipoMob":"Mob hostil (jefe)",
+        "descripcion":"El Enderdragón, es el jefe principal del juego. Solo se genera de forma natural en su hábitat, El End.",
+        "vida":"100 corazones",
+        "atk":"7.5 corazones fisico, aliento (2.5 corazones), bola de fuego (3 corazones)",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0a/Ender_Dragon.gif/revision/latest?cb=20210107043116"
+    },
+    {
+        "id": "M70",
+        "nombre": "Wither",
+        "tipoMob":"Mob hostil (jefe)",
+        "descripcion":"El wither es una criatura jefe no muerta que flota y dispara calaveras explosivas a criaturas y jugadores. Solo puede ser construido por un jugador. Es la única fuente de estrellas del Nether, las cuales sirven para fabricar faros.",
+        "vida":"300 corazones",
+        "atk":"Explosion inicial (74 corazones), cabeza (6 corazones), embestida (7.5 corazones)",
+        "img": "https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/a/aa/Wither.png/revision/latest?cb=20201114135558"
+    },
+    {
+        "id": "M71",
+        "nombre": "araña",
+        "tipoMob":"Mob hostil",
+        "descripcion":"La araña es la tercera criatura añadida al juego. Sus ojos brillan de color rojo en la oscuridad, dándoles una apariencia tétrica. Su tamaño, a diferencia de otras criaturas hostiles (cajas de 1x2x1 bloques), es de 2x1x2 bloques. No puede pasar a través de entradas angostas como los zombis u otros monstruos, pero puede atravesar huecos con sus habilidades para saltar y trepar.",
+        "vida":"8 corazones",
+        "atk":"1.5 corazones",
+        "img": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1f/Spider_JE4_BE3.png/revision/latest?cb=20200108012105"
+    }
+]
