@@ -52,7 +52,6 @@ var cesar = cesar || (function(){
 })();
 
 //funcion de cifrado
-
 function cifrar(){
     document.getElementById("resultado").innerHTML =
     cesar.encode(document.getElementById("cadena").value, parseInt(document.getElementById("desplazamiento").value));

@@ -1,5 +1,5 @@
 //vamos a definir nuestro abc
-
+//hola no se porque no quiere agarrar los js
 const abc = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'ñ','o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 
 //aqui va a estar la llave
