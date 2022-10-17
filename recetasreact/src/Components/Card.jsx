@@ -14,7 +14,7 @@ const Card = props=>{
             <div className="card-body text-dark">
                 <h4 className="card-title">{props.title}</h4>
                 <button className="btn btn-outline-success" onClick={() => {setOpenModal(true);}}>
-                    Receta completa
+                    Ver receta
                 </button>
                 {openModal && <Modal titleR={props.titleR} bodyR={props.bodyR} ingredientes={props.ingredientes} pasos={props.pasos}/>}
             </div>
